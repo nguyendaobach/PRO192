@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class bai4 { 
+public class bai4 {
     public static void main(String[] args) {
-        int cout = 0;
+        boolean cout = false;
         String[] danhsach = new String[5];
         danhsach[0] = "Nguyen Dao Bach";
         danhsach[1] = "Nguyen Quoc Khang";
@@ -13,12 +13,12 @@ public class bai4 {
         String name = scanner.nextLine();
         for (int i = 0; i <= 4; i++) {
             if (name.equals(danhsach[i])) {
-                cout++;
+                cout=true;
                 break;
 
             }
         }
-        if (cout == 1) System.out.println("Yes");
+        if(cout) System.out.println("Yes");
         else System.out.println("No");
 
 
