@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 public class matkhau {
     public static void main(String[] args){
         Scanner scanner =new Scanner(System.in);
-        int cout=1;
+        int cout=0;
         while(true){
             if(cout==5){
                 System.out.println("ban da het luot nhap mk");
