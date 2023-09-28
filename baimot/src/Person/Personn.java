@@ -65,13 +65,13 @@ public class Personn {
         System.out.println("Phonenum:0"+phonenum);
         System.out.println("Dia chi:"+diachi);
     }
-    public void changenum(int iii){
+    public void changenum(){
         System.out.println("Vui long nhap sdt moi");
         int newphonenum=sc.nextInt();
         this.phonenum=newphonenum;
         sc.nextLine();
     }
-    public void changediachi(String diachi){
+    public void changediachi(){
         System.out.println("Vui long nhap dia chi moi");
         String diachimoi=sc.nextLine();
         this.diachi=diachimoi;

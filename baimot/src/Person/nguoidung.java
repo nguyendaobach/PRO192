@@ -7,8 +7,8 @@ public class nguoidung {
         Scanner scanner=new Scanner(System.in);
         Personn Bach = new Personn("bachndqe180006@fpt.edu.vn","Nguyen Dao Bach",18, 389116428,"Binh Dinh");
         Bach.Infomation();
-        Bach.changenum(Bach.getPhonenum());
-        Bach.changediachi(Bach.getDiachi());
+        Bach.changenum();
+        Bach.changediachi();
         System.out.println("Thong tin sau khi thay doi");
         Bach.Infomation();
     }
