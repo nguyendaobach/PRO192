@@ -1,4 +1,4 @@
-package Person;
+package Lab3;
 
 import java.util.Scanner;
 
@@ -10,53 +10,27 @@ public class Personn {
     private int phonenum;
     private String diachi;
 
-    public Personn(String email, String hoten, int age, int phonenum, String diachi) {
+    /*public Personn(String email, String hoten, int age, int phonenum, String diachi) {
         this.email = email;
         this.hoten = hoten;
         this.age = age;
         this.phonenum = phonenum;
         this.diachi = diachi;
-    }
+    }*/
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getHoten() {
-        return hoten;
-    }
-
-    public void setHoten(String hoten) {
-        this.hoten = hoten;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getPhonenum() {
-        return phonenum;
-    }
-
-    public void setPhonenum(int phonenum) {
-        this.phonenum = phonenum;
-    }
-
-    public String getDiachi() {
-        return diachi;
-    }
-
-    public void setDiachi(String diachi) {
-        this.diachi = diachi;
-    }
+  void setemploy(){
+      System.out.println("nhap email");
+      this.email=sc.nextLine();
+      System.out.println("nhap hoten");
+      this.hoten=sc.nextLine();
+      System.out.println("nhap tuoi");
+      this.age=sc.nextInt();
+      System.out.println("nhap sdt");
+      this.phonenum=sc.nextInt();
+      sc.nextLine();
+      System.out.println("nhap dia chi");
+      this.diachi=sc.nextLine();
+  }
 
     public void Infomation(){
         System.out.println("Email:"+email);
