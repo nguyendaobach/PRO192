@@ -20,16 +20,16 @@ public class Personn {
 
   void setemploy(){
       System.out.println("nhap email");
-      this.email=sc.nextLine();
+      email=sc.nextLine();
       System.out.println("nhap hoten");
-      this.hoten=sc.nextLine();
+      hoten=sc.nextLine();
       System.out.println("nhap tuoi");
-      this.age=sc.nextInt();
+      age=sc.nextInt();
       System.out.println("nhap sdt");
-      this.phonenum=sc.nextInt();
+      phonenum=sc.nextInt();
       sc.nextLine();
       System.out.println("nhap dia chi");
-      this.diachi=sc.nextLine();
+      diachi=sc.nextLine();
   }
 
     public void Infomation(){
@@ -42,13 +42,13 @@ public class Personn {
     public void changenum(){
         System.out.println("Vui long nhap sdt moi");
         int newphonenum=sc.nextInt();
-        this.phonenum=newphonenum;
+        phonenum=newphonenum;
         sc.nextLine();
     }
     public void changediachi(){
         System.out.println("Vui long nhap dia chi moi");
         String diachimoi=sc.nextLine();
-        this.diachi=diachimoi;
+        diachi=diachimoi;
 
 
     }
